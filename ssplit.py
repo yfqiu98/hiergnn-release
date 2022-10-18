@@ -7,9 +7,9 @@ OUT_FILE_ADDR = sys.argv[2]
 
 # sentence length should be in (5,200)
 min_src_ntokens = 5
-max_src_ntokens = 200
+max_src_ntokens = 700
 min_nsents = 3
-max_nsents = 100
+max_nsents = 700
 
 f = open(IN_FILE_ADDR, "r")
 lines = f.readlines()
